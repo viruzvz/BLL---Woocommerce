@@ -17,14 +17,14 @@
 }
 
 .nav-dark {
-  background-color: #000000;
+  background-color: #000;
 }
 
 .nav-sticky {
   position: fixed;
   top: 0;
   width: 100%;
-	z-index: 3;
+  z-index: 3;
 }
 
 .navbar {
@@ -32,7 +32,6 @@
   padding-bottom: 0;
   background-color: $primary;
 }
-
 
 .navbar-toggle {
   position: relative;
@@ -45,38 +44,24 @@
   background-image: none;
   border: 1px solid transparent;
   border-radius: 0;
-}
-
-.navbar-toggle {
   display: none;
+
   @include media-breakpoint-down(lg) {
     display: block;
   }
 }
 
-.navbar-toggle {
-  border: none;
-  background: transparent !important;
-}
-
-.navbar-toggle .icon-bar {
+.icon-bar {
   background-color: #fff;
-}
-
-.navbar-toggle .icon-bar+.icon-bar {
-  margin-top: 4px;
-}
-
-.navbar-toggle .icon-bar {
   display: block;
   width: 22px;
   height: 2px;
   border-radius: 1px;
+  transition: all 0.2s;
 }
 
-.navbar-toggle .icon-bar {
-	width: 22px;
-	transition: all 0.2s;
+.icon-bar + .icon-bar {
+  margin-top: 4px;
 }
 
 /* ANIMATED X */

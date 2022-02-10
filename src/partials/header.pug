@@ -3,12 +3,13 @@ header
     .container-fluid
       .row
         .col-lg-6
-          figure.d-inline
-            i.fas.fa-phone.c-primary &nbsp;
-            figcaption.d-inline
-              span.c-primary.milli Informações de contato +55 61 9841-9696
+          a.link.link-nav(href='#')
+            strong Loja Brasília Luta Livre - BLL
         .col-lg-6.text-end
           .nav-social--links.text-end
+            a.link.c-secondary(href='#')
+              i.fas.fa-phone &nbsp;
+              span.milli Informações de contato +55 61 9841-9696
             a.link.link-facebook(href="#" title='Facebook APCN')
               i.fab.fa-facebook-f
             a.link.link-youtube(href="#" title='Youtube APCN')
@@ -19,12 +20,11 @@ header
               i.fab.fa-whatsapp
 
   nav.nav-brand(role="Logo")
-    .container-fluid 
+    .container-fluid
       .row
         .col-lg-3
         .col-lg-6.text-center
-          img(src="images/logo.svg", alt="Logo QdeIngrid", width="300px")
-          p.brand-caption
+          img.img-logo(src="images/logo.svg", alt="Logo BLL" width='200px')
         .col-lg-3.d-flex.align-items-center
           .navbar-expand-lg.w-100
             #collapseSearch.collapse.navbar-collapse
@@ -63,7 +63,7 @@ header
             .d-flex.justify-content-end.w-100
               ul.navbar-nav
                 li.nav-item
-                  a.nav-link.link-nav(href='#') 
+                  a.nav-link.link-nav(href='#')
                     i.fas.fa-shopping-cart &nbsp;
                     span R$ Card
 

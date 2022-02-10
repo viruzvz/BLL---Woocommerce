@@ -74,18 +74,23 @@
 .delta {
   font-size: $delta;
 }
+
 .epsilon {
   font-size: $epsilon;
 }
+
 .zeta {
   font-size: $zeta;
 }
+
 .eta {
   font-size: $eta;
 }
+
 .milli {
   font-size: $milli;
 }
+
 .micro {
   font-size: $micro;
 }
@@ -100,12 +105,24 @@
 }
 
 .anime {
-	opacity: 0;
-	transform: translate3d(-100px,0,0);
-	transition: .3s;
+  opacity: 0;
+  transform: translate3d(-100px, 0, 0);
+  transition: 0.3s;
 }
 
 .anime-start {
-	opacity: 1;
-	transform: translate3d(0,0,0);
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.img-logo {
+  width: 200px;
+}
+
+.description {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #bcbfc4;
+  font-family: "impactreg";
+  font-size: 18px;
 }
